@@ -14,6 +14,8 @@ export const Toolbar = () => {
           
         <div onClick={() => router.push('/')}>Home</div>
         <div onClick={() => router.push('/feed/1')}>News</div>
+        <div onClick={() => router.push('/feedtech/1')}>TechNews</div>
+        <div onClick={() => router.push('/feedapple/1')}>AppleNews</div>
         <div onClick={() => router.push('/about')}>About</div>
        
     

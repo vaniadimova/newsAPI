@@ -15,11 +15,12 @@ export default function Home() {
     <div className="page-container">
 <Toolbar />
 <div className={styles.main}>
-        <h1>News App</h1>
+        <h1>News Streaming App</h1>
         <h2>Your one stop for the latest news articles. Just click of News link on top.</h2>
         <Image src="/banner.png" width={600} height={400} />
       <h2> My social links are also added if you are interested.</h2>
       <h3>Enjoy your read!</h3>
+      <Link href="https://www.vaniadimova.com">www.vaniadimova.com</Link>
       </div>
     </div>
     </>
